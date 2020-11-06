@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="exam@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.17">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="BT1">
+      <ObjectId>8</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AI</Collation>
+    </database>
+    <database id="3" parent="1" name="BTDATABASE">
+      <ObjectId>5</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="DE01">
+      <ObjectId>26</ObjectId>
+    </database>
+    <database id="5" parent="1" name="DE01_20173148">
+      <ObjectId>27</ObjectId>
+    </database>
+    <database id="6" parent="1" name="DE01_20173148_HuanNT">
+      <ObjectId>28</ObjectId>
+    </database>
+    <database id="7" parent="1" name="DE1">
+      <ObjectId>25</ObjectId>
+    </database>
+    <database id="8" parent="1" name="Demo">
+      <ObjectId>30</ObjectId>
+    </database>
+    <database id="9" parent="1" name="LAB3">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="10" parent="1" name="LUYENDE03">
+      <ObjectId>19</ObjectId>
+    </database>
+    <database id="11" parent="1" name="LUYENDE3">
+      <ObjectId>18</ObjectId>
+    </database>
+    <database id="12" parent="1" name="LUYENTHI1">
+      <ObjectId>16</ObjectId>
+    </database>
+    <database id="13" parent="1" name="LUYENTHI2">
+      <ObjectId>17</ObjectId>
+    </database>
+    <database id="14" parent="1" name="ONTHIGK">
+      <ObjectId>20</ObjectId>
+    </database>
+    <database id="15" parent="1" name="ProductDB">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="16" parent="1" name="QLBONGDA_HuanNT_20173148_N06">
+      <ObjectId>14</ObjectId>
+    </database>
+    <database id="17" parent="1" name="QLCH">
+      <ObjectId>7</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="18" parent="1" name="QL_HESOMONHOC">
+      <ObjectId>40</ObjectId>
+    </database>
+    <database id="19" parent="1" name="QL_HESOMONHOC2">
+      <ObjectId>39</ObjectId>
+    </database>
+    <database id="20" parent="1" name="QUANLY">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="21" parent="1" name="SRS">
+      <ObjectId>43</ObjectId>
+    </database>
+    <database id="22" parent="1" name="THICUOIKY">
+      <ObjectId>22</ObjectId>
+    </database>
+    <database id="23" parent="1" name="THICUOIKY2">
+      <ObjectId>23</ObjectId>
+    </database>
+    <database id="24" parent="1" name="THICUOIKY3">
+      <ObjectId>24</ObjectId>
+    </database>
+    <database id="25" parent="1" name="THUCHANGLAB01">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="26" parent="1" name="THUCHANGLAB1">
+      <ObjectId>12</ObjectId>
+    </database>
+    <database id="27" parent="1" name="Tavi_srs">
+      <ObjectId>29</ObjectId>
+    </database>
+    <database id="28" parent="1" name="ThucHanhSQL">
+      <ObjectId>15</ObjectId>
+    </database>
+    <database id="29" parent="1" name="USERACOUNT">
+      <ObjectId>11</ObjectId>
+    </database>
+    <database id="30" parent="1" name="cms_again">
+      <ObjectId>36</ObjectId>
+    </database>
+    <database id="31" parent="1" name="cms_demo">
+      <ObjectId>32</ObjectId>
+    </database>
+    <database id="32" parent="1" name="cms_demo_2">
+      <ObjectId>34</ObjectId>
+    </database>
+    <database id="33" parent="1" name="cms_giu_lai">
+      <ObjectId>35</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="34" parent="1" name="demo_suong_2">
+      <ObjectId>33</ObjectId>
+    </database>
+    <database id="35" parent="1" name="exam">
+      <ObjectId>42</ObjectId>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>42.44118/94E7F5B2-7438-4A82-BF3E-2B617E1B87ED@DESKTOP-C9L8EBV\SQLEXPRESS</Fingerprint>
+    </database>
+    <database id="36" parent="1" name="huan_dz">
+      <ObjectId>37</ObjectId>
+    </database>
+    <database id="37" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="38" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="39" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="40" parent="1" name="project_exam_security">
+      <ObjectId>44</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="41" parent="1" name="security">
+      <ObjectId>31</ObjectId>
+    </database>
+    <database id="42" parent="1" name="spring_user">
+      <ObjectId>41</ObjectId>
+    </database>
+    <database id="43" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="44" parent="1" name="testdb">
+      <ObjectId>21</ObjectId>
+    </database>
+    <database id="45" parent="1" name="thong_bao_mrs">
+      <ObjectId>38</ObjectId>
+    </database>
+    <schema id="46" parent="35" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="47" parent="35" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="48" parent="35" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="49" parent="35" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="50" parent="35" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="51" parent="35" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="52" parent="35" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="53" parent="35" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="54" parent="35" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="55" parent="35" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="56" parent="35" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2020-10-18.17:06:53.860</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="57" parent="35" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="58" parent="35" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="59" parent="56" name="pro_role">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2020-10-16.00:07:33.177</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-16.00:07:33.203</ModifiedTimestamp>
+    </table>
+    <table id="60" parent="56" name="pro_token">
+      <ObjectId>1525580473</ObjectId>
+      <CreatedTimestamp>2020-10-18.17:06:48.703</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-18.17:06:48.703</ModifiedTimestamp>
+    </table>
+    <table id="61" parent="56" name="pro_user">
+      <ObjectId>1237579447</ObjectId>
+      <CreatedTimestamp>2020-10-16.00:07:33.193</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-18.17:06:48.717</ModifiedTimestamp>
+    </table>
+    <table id="62" parent="56" name="pro_user_role">
+      <ObjectId>1269579561</ObjectId>
+      <CreatedTimestamp>2020-10-16.00:07:33.197</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-16.00:07:33.197</ModifiedTimestamp>
+    </table>
+    <column id="63" parent="59" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="59" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="65" parent="59" name="deleted">
+      <Position>3</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <index id="66" parent="59" name="PK__pro_role__3213E83F351B9EA0">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="59" name="PK__pro_role__3213E83F351B9EA0">
+      <ObjectId>1221579390</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-10-16.00:07:33.190</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-16.00:07:33.190</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__pro_role__3213E83F351B9EA0</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="68" parent="60" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="60" name="token">
+      <Position>2</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="70" parent="60" name="createdAt">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="71" parent="60" name="user_id">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="72" parent="60" name="PK__pro_toke__3213E83F112AD739">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="60" name="PK__pro_toke__3213E83F112AD739">
+      <ObjectId>1541580530</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-10-18.17:06:48.713</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-18.17:06:48.713</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__pro_toke__3213E83F112AD739</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="74" parent="60" name="FK__pro_token__user___5CD6CB2B">
+      <ObjectId>1557580587</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-10-18.17:06:48.713</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-18.17:06:48.713</ModifiedTimestamp>
+      <ColNames>user_id</ColNames>
+      <RefTableId>1237579447</RefTableId>
+      <RefTableName>pro_user</RefTableName>
+      <RefKeyName>PK__pro_user__3213E83FAD5EBF4B</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="75" parent="61" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="61" name="username">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="77" parent="61" name="password">
+      <Position>3</Position>
+      <DataType>varchar(80 char)|0s</DataType>
+    </column>
+    <column id="78" parent="61" name="email">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="79" parent="61" name="phone_number">
+      <Position>5</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+    </column>
+    <column id="80" parent="61" name="status">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="81" parent="61" name="deleted">
+      <Position>7</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <column id="82" parent="61" name="created_date">
+      <Position>8</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="83" parent="61" name="modified_date">
+      <Position>9</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <index id="84" parent="61" name="PK__pro_user__3213E83FAD5EBF4B">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="85" parent="61" name="PK__pro_user__3213E83FAD5EBF4B">
+      <ObjectId>1253579504</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-10-16.00:07:33.197</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-16.00:07:33.197</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__pro_user__3213E83FAD5EBF4B</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="86" parent="62" name="role_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="62" name="user_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="62" name="deleted">
+      <Position>3</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <index id="89" parent="62" name="PK__pro_user__9D9286BCD9D32791">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>role_id
+user_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="62" name="PK__pro_user__9D9286BCD9D32791">
+      <ObjectId>1285579618</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-10-16.00:07:33.200</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-16.00:07:33.200</ModifiedTimestamp>
+      <ColNames>role_id
+user_id</ColNames>
+      <UnderlyingIndexName>PK__pro_user__9D9286BCD9D32791</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="91" parent="62" name="FK__pro_user___role___4D94879B">
+      <ObjectId>1301579675</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-10-16.00:07:33.200</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-16.00:07:33.200</ModifiedTimestamp>
+      <ColNames>role_id</ColNames>
+      <RefTableId>1205579333</RefTableId>
+      <RefTableName>pro_role</RefTableName>
+      <RefKeyName>PK__pro_role__3213E83F351B9EA0</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="92" parent="62" name="FK__pro_user___user___4E88ABD4">
+      <ObjectId>1317579732</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-10-16.00:07:33.203</CreatedTimestamp>
+      <ModifiedTimestamp>2020-10-16.00:07:33.203</ModifiedTimestamp>
+      <ColNames>user_id</ColNames>
+      <RefTableId>1237579447</RefTableId>
+      <RefTableName>pro_user</RefTableName>
+      <RefKeyName>PK__pro_user__3213E83FAD5EBF4B</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

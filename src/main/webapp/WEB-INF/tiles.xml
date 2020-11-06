@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <!--    login page-->
+    <definition name="login" template="/WEB-INF/views/layouts/login.jsp"/>
+    <definition name="begin" template="/WEB-INF/views/layouts/begin.jsp"/>
+
+    <!--    401-->
+    <definition name="401" template="/WEB-INF/views/layouts/401.jsp"/>
+
+    <!--    Base Define giao dien trang chinh-->
+    <definition name="base.definition" template="/WEB-INF/views/layouts/index.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/views/basefragment/header.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/views/basefragment/_menu.jsp"/>
+        <put-attribute name="body" value=""/>
+    </definition>
+
+    <definition name="home" extends="base.definition">
+        <put-attribute name="title" value="home"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/home.jsp"/>
+    </definition>
+    <!--TO CHUC         /////////////////////////////////////////-->
+    <definition name="thanh-vien-to-chuc" extends="base.definition">
+        <put-attribute name="title" value="Thanh vien to chuc"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/organization/organizationMember.jsp"/>
+    </definition>
+
+    <definition name="danh-sach-chi-nhanh" extends="base.definition">
+        <put-attribute name="title" value="Danh sach chi nhanh"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/organization/branchList.jsp"/>
+    </definition>
+
+    <definition name="danh-sach-nhom-quyen" extends="base.definition">
+        <put-attribute name="title" value="Danh sach nhom quyen"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/organization/groupRole.jsp"/>
+    </definition>
+    <!--THIET BI       /////////////////////////////////////////  -->
+    <definition name="danh-sach-nhom-thiet-bi" extends="base.definition">
+        <put-attribute name="title" value="Danh sach nhom thiet bị"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/device/deviceGroupList.jsp"/>
+    </definition>
+
+    <definition name="danh-sach-thiet-bi" extends="base.definition">
+        <put-attribute name="title" value="Danh sach thiet bi"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/device/deviceList.jsp"/>
+    </definition>
+
+    <!--    KHAO SAT ///////////////////////////////////////////////////// -->
+
+    <definition name="loai-khao-sat" extends="base.definition">
+        <put-attribute name="title" value="Loai khao sat"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/survey/surveyType.jsp"/>
+    </definition>
+
+    <definition name="danh-sach-khao-sat" extends="base.definition">
+        <put-attribute name="title" value="Danh sach khao sat"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/survey/surveyList.jsp"/>
+    </definition>
+
+    <definition name="danh-sach-cau-hoi" extends="base.definition">
+        <put-attribute name="title" value="Danh sach cau hoi"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/survey/questionList.jsp"/>
+    </definition>
+
+    <definition name="mau-cau-tra-loi" extends="base.definition">
+        <put-attribute name="title" value="Mau cau tra loi"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/survey/sampleAnswer.jsp"/>
+    </definition>
+
+    <!--    KHACH HANG //////////////////////////////////////////////////////////////////////////////////-->
+    <definition name="danh-sach-khach-hang" extends="base.definition">
+        <put-attribute name="title" value="Danh sach khach hang"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/customer/customerList.jsp"/>
+    </definition>
+
+    <definition name="moi-khao-sat" extends="base.definition">
+        <put-attribute name="title" value="Danh sach moi khao sat"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/customer/invitedSurvey.jsp"/>
+    </definition>
+
+    <!--    MA THUONG ////////////////////////////////////////////////////////////////////////////////////////-->
+    <definition name="chuong-trinh-diem-thuong" extends="base.definition">
+        <put-attribute name="title" value="Chuong trinh diem thuong"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/reward/rewardProgram.jsp"/>
+    </definition>
+
+    <definition name="danh-sach-ma-thuong" extends="base.definition">
+        <put-attribute name="title" value="Danh sach ma thuong"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/reward/rewardCode.jsp"/>
+    </definition>
+
+    <!--    BO SUU TAP ///////////////////////////////////////////////////////////////////////////////////////-->
+
+    <definition name="bo-suu-tap" extends="base.definition">
+        <put-attribute name="title" value="Bo suu tap"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/collection/collection.jsp"/>
+    </definition>
+
+    <definition name="loi-cam-on" extends="base.definition">
+        <put-attribute name="title" value="Loi cam on"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/collection/thanks.jsp"/>
+    </definition>
+
+    <!--    PHAN HOI ///////////////////////////////////////////////////////////////////////////////////////-->
+
+    <definition name="danh-sach-phan-hoi" extends="base.definition">
+        <put-attribute name="title" value="Danh sach phan hoi"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/answer/answer.jsp"/>
+    </definition>
+
+    <definition name="thong-ke" extends="base.definition">
+        <put-attribute name="title" value="Thong ke phan hoi"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/answer/statistic.jsp"/>
+    </definition>
+    <!--    DOI TUONG  ///////////////////////////////////////////////////////////////////////////////////////-->
+    <definition name="nhom-doi-tuong" extends="base.definition">
+        <put-attribute name="title" value="Nhom doi tuong"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/object/objectGroup.jsp"/>
+    </definition>
+
+    <definition name="danh-sach-doi-tuong" extends="base.definition">
+        <put-attribute name="title" value="Danh sach doi tuong"/>
+        <put-attribute name="body" value="/WEB-INF/views/bodyfragments/survey/objectSurvey.jsp"/>
+    </definition>
+
+</tiles-definitions>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0886122-e85f-4006-b3e7-1322ff879791" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/configs/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/configs/TilesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/controllers/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/controllers/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/answer/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/answer/TempAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/base/AuditorAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/exam/AppClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/exam/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/exam/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/exam/PaperQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/exam/PaperStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/question/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/question/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/user/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/user/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/entities/user/UserRoleId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/payload/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/payload/request/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/payload/response/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/payload/response/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/answer/AnswerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/answer/TempAnswerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/exam/AppClassRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/exam/ExamRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/exam/PaperQuestionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/exam/PaperRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/question/CatalogRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/question/QuestionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/result/ResultRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/user/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/repositories/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/securities/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/securities/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/securities/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/securities/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/securities/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/securities/services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/securities/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/service/user/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/service_impls/user/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soict/project_exam/service_impls/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/study/security/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/study/security/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/study/security/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/study/security/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/study/security/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/study/security/securities/DataSeedingListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/study/security/securities/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/study/security/service_impls/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/resources/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springconfigurationproperties/src/main/java/com/example/springconfigurationproperties/DemoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springconfigurationproperties/src/main/java/com/example/springconfigurationproperties/DemoConponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springconfigurationproperties/src/main/resources/application2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springconfigurationproperties/src/main/resources/global.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="exam@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="exam@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="exam: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="exam@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="exam: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="exam@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="exam: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="pro_token: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1iiKAientmNBhwiNzXv80pVW75R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Spring Boot\spring-boot-learning\project_exam\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProjectExamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="project_exam" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soict.project_exam.ProjectExamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0886122-e85f-4006-b3e7-1322ff879791" name="Default Changelist" comment="" />
+      <created>1602384830372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602384830372</updated>
+      <workItem from="1602384835554" duration="19030000" />
+      <workItem from="1602661047683" duration="21087000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="77" key="#Assign_Data_Sources" timestamp="1602757906899">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="77" key="#Assign_Data_Sources/0.0.1536.834@0.0.1536.834" timestamp="1602757906899" />
+    <state x="361" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602385043896">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1602385043896" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1602770286691">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1602770286691" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602720529962">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1602720529962" />
+    <state width="1493" height="109" key="GridCell.Tab.0.bottom" timestamp="1602423764608">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602423764608" />
+    <state width="1493" height="109" key="GridCell.Tab.0.center" timestamp="1602423764608">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602423764608" />
+    <state width="1493" height="109" key="GridCell.Tab.0.left" timestamp="1602423764608">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602423764608" />
+    <state width="1493" height="109" key="GridCell.Tab.0.right" timestamp="1602423764608">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602423764608" />
+    <state width="1493" height="109" key="GridCell.Tab.1.bottom" timestamp="1602423764662">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602423764662" />
+    <state width="1493" height="109" key="GridCell.Tab.1.center" timestamp="1602423764645">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1602423764645" />
+    <state width="1493" height="109" key="GridCell.Tab.1.left" timestamp="1602423764608">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1602423764608" />
+    <state width="1493" height="109" key="GridCell.Tab.1.right" timestamp="1602423764645">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1602423764645" />
+    <state x="0" y="73" key="Maven.ArtifactSearchDialog" timestamp="1602778836621">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="73" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1602778836621" />
+    <state x="595" y="264" width="322" height="279" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602403239768">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="595" y="264" width="322" height="279" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.834@0.0.1536.834" timestamp="1602403239768" />
+    <state x="478" y="16" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602385249077">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="478" y="16" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1602385249077" />
+    <state x="851" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1602661046834">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="851" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1602661046834" />
+  </component>
+</project>

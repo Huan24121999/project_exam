@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.social.google.appId",
+      "type": "java.lang.String",
+      "description": "Description for spring.social.google.appId."
+  }
+] }
